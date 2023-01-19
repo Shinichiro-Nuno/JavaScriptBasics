@@ -1,11 +1,12 @@
 'use strict';
 
-// コメント
+// console.log('hello');
+// console.log('hello');
 
-/*
-コメント
-コメント
-コメント
-*/
+// console.log('it's me!')
+// console.log("it's me!");
+// console.log('it\'s me!');
 
-console.log('Hello World from main.js!');
+console.log('hel\nlo wor\tld')
+
+console.log('hello' + 'world')
