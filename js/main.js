@@ -1,12 +1,11 @@
 'use strict';
 
-// console.log('hello');
-// console.log('hello');
+console.log(10 + 3);
+console.log(10 - 3);
+console.log(10 * 3);
+console.log(10 / 3);
+console.log(10 % 3);
+console.log(10 ** 3);
 
-// console.log('it's me!')
-// console.log("it's me!");
-// console.log('it\'s me!');
-
-console.log('hel\nlo wor\tld')
-
-console.log('hello' + 'world')
+console.log(2 + 10 * 3);
+console.log((2 + 10) * 3);
