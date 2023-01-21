@@ -1,24 +1,25 @@
 'use strict';
 
-function showAd() {
+function showAd(message = 'Ad') {
 console.log('----------');
-console.log('--- Ad ---');
+console.log(`--- ${message} ---`);
 console.log('----------');
 }
 
 // console.log('----------');
 // console.log('--- Ad ---');
 // console.log('----------');
-showAd();
+showAd('Header Ad');
 console.log('Tom is great!');
 console.log('Tom is great!');
 // console.log('----------');
 // console.log('--- Ad ---');
 // console.log('----------');
+// showAd('Ad');
 showAd();
 console.log('Tom is great!');
 console.log('Tom is great!');
-showAd();
+showAd('Footer Ad');
 // console.log('----------');
 // console.log('--- Ad ---');
 // console.log('----------');
