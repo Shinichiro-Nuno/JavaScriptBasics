@@ -2,11 +2,8 @@
 
 {
     const scores = [80, 90, 40, 70];
-
-//     console.log(`Score: ${scores[0]}`);
-//     console.log(`Score: ${scores[1]}`);
-//     console.log(`Score: ${scores[2]}`);
-// }
+    scores.push(60, 50);
+    scores.shift();
 
 for (let i = 0; i < scores.length; i++) {
     console.log(`Score ${i}: ${scores[i]}`);
