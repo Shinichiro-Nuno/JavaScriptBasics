@@ -1,25 +1,13 @@
 'use strict';
 
-function showAd(message = 'Ad') {
-console.log('----------');
-console.log(`--- ${message} ---`);
-console.log('----------');
+function sum(a, b, c) {
+    // console.log(a + b + c);
+    return a + b + c;
+    console.log(a + b + c);
 }
 
-// console.log('----------');
-// console.log('--- Ad ---');
-// console.log('----------');
-showAd('Header Ad');
-console.log('Tom is great!');
-console.log('Tom is great!');
-// console.log('----------');
-// console.log('--- Ad ---');
-// console.log('----------');
-// showAd('Ad');
-showAd();
-console.log('Tom is great!');
-console.log('Tom is great!');
-showAd('Footer Ad');
-// console.log('----------');
-// console.log('--- Ad ---');
-// console.log('----------');
+// sum(1, 2, 3);
+// sum(3, 4, 5);
+
+const total = sum(1, 2, 3) + sum(3, 4, 5);
+// console.log(total);
