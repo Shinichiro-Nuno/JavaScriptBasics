@@ -5,12 +5,12 @@
 
   function showTime() {
     console.log(new Date());
-    i++
+    const timeoutId = setTimeout(showTime, 1000);
+    i++;
     if (i > 2) {
-      clearInterval(intervalId);
+      clearTimeout(timeoutId);
     }
   }
 
-  const intervalId = setInterval(showTime, 1000);
+  showTime();
 }
-
