@@ -16,20 +16,15 @@
     }
   }
 
-  class SponsoredPost {
+  class SponsoredPost extends Post {
     constructor(text, sponsor) {
-      this.text = text;
-      this.likeCount = 0;
+      super(text);
       this.sponsor = sponsor;
     }
 
     show() {
       console.log(`${this.text} - ${this.likeCount} likes`);
       console.log(`... sponsored by ${this.sponsor}`);
-    }
-    like() {
-      this.likeCount++;
-      this.show();
     }
   }
   
