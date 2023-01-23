@@ -14,6 +14,11 @@
       this.likeCount++;
       this.show();
     }
+
+    static showInfo() {
+      console.log('Post class version 1.0');
+    }
+
   }
   
 
@@ -22,8 +27,7 @@
     new Post('プログラミング楽しい！'),
   ];
 
-  posts[0].like();
+  // posts[0].like();
 
-  // posts[0].show();
-  // posts[1].show();
+  Post.showInfo();
 }
