@@ -28,7 +28,6 @@
     }
   }
   
-
   const posts = [
     new Post('JavaScriptの勉強中・・・'),
     new Post('プログラミング楽しい！'),
